@@ -84,6 +84,7 @@ main {
     display: none;
   }
   .main-container a {
+    display: block;
     text-decoration: none;
     color: white;
     background-color: #ec3a2c;
