@@ -21,17 +21,16 @@ Para Windows podemos acceder a la pagina oficial de Ruby para poder comenzar a l
 
 # Instalación de SASS
 
-## Instalacion de Ruby para SASS
+## Instalación mediante NPM
+Ejecutar el siguiente comando de manera global, dado que es un preprocesador y no un packete individual.
+- npm install -g sass
 
+### (Opcional) Instalacion de Ruby para SASS
 Instalación de Ruby
-
 https://rubyinstaller.org/downloads/
 usar la version 3.1.2-1
-
-## Instalación de SASS
-
+### (Opcional) Instalación de con Ruby SASS
 Instalación de SASS posteriormente a la instalación de Ruby mediante la linea de comandos dentro de la carpeta de nuestro proyecto.
-
 gem install sass
 
 ### (OPCIONAL) Comprobar la instalación de SASS mediante el comando
@@ -47,9 +46,9 @@ El uso de JQuery sera manejado mediante su version .min.js en su version 3.6.0 q
 
 El montaje de este proyecto esta descrito para ambiente Windows por lo que la instalación en otros ambientes podria requerir de instalaciones adicioneles o diferentes rutas de instalación. Consulte la instalacion de las tecnologias en las paginas oficiales.
 
-- https://jquery.com o
+- https://jquery.com
 - https://sass-lang.com/
 
 # Adicionales
 
-En lo posible usar la extencion PRETTIER de VS Code para mantener el mismo identado todos.
+En lo posible usar la extencion Prettier de VS Code para mantener el mismo identado todos.
