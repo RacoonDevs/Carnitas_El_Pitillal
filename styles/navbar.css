@@ -9,6 +9,9 @@
   padding: 20px 30px;
   background-color: #3b3632;
   color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
 }
 
 /* Logo */
