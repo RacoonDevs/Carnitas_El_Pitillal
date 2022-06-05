@@ -7,11 +7,11 @@
     <title>Carnitas el Pitillal</title>
     <script src="./scripts/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="index.css" />
-    <link rel="stylesheet" href="/styles/navbar.css" />
-    <link rel="stylesheet" href="/styles/main.css" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
   </head>
   <body>
-    <nav class="navbar">
+    <nav class="navbar opacity">
       <!-- logo -->
       <div class="logo">
         <a href="/">
@@ -37,8 +37,15 @@
     </nav>
     <main>
       <div class="main-container">
-        <h1>Bienvenidos a Carnitas el Pitillal</h1>
+        <!-- <h1>Bienvenidos a Carnitas el Pitillal</h1> -->
       </div>
     </main>
+
+    <script type="text/javascript">
+      window.addEventListener("scroll", function () {
+        var header = document.querySelector("nav");
+        header.classList.toggle("sticky", window.scrollY > 0);
+      });
+    </script>
   </body>
 </html>
