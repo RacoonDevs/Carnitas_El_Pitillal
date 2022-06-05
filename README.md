@@ -8,7 +8,6 @@ La pagina web sera una Landing Page, la cual mostrara todo su contenido en un so
 
 Lenguajes del proyecto:
 
-- SASS
 - JQuery
 - Javascript
 - CSS
@@ -16,31 +15,7 @@ Lenguajes del proyecto:
 
 # Instalación del proyecto.
 
-Este proyecto en cuanto a su diseño de estilos esta construido sobre SASS el cual requiere de la instalación de este en sus sistema operativo para la compilación.
-Para Windows podemos acceder a la pagina oficial de Ruby para poder comenzar a la instalación de SASS
-
-# Instalación de SASS
-
-## Instalación mediante NPM
-
-Ejecutar el siguiente comando de manera global, dado que es un preprocesador y no un packete individual.
-
-- npm install -g sass
-
-### (Opcional) Instalacion de Ruby para SASS
-
-Instalación de Ruby
-https://rubyinstaller.org/downloads/
-usar la version 3.1.2-1
-
-### (Opcional) Instalación de con Ruby SASS
-
-Instalación de SASS posteriormente a la instalación de Ruby mediante la linea de comandos dentro de la carpeta de nuestro proyecto.
-gem install sass
-
-### (OPCIONAL) Comprobar la instalación de SASS mediante el comando
-
-sass -v
+Este proyecto en cuanto a su diseño de estilos esta construido sobre JQuery el cual no requiere de la instalación de este en sus sistema operativo para la compilación.
 
 # Instalación de JQuery
 
