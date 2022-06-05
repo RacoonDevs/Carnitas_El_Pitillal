@@ -60,6 +60,9 @@ main {
   height: 70%;
   border-radius: 50px;
 }
+.main-container a {
+  display: none;
+}
 
 @media (max-width: 1023px) {
   .main-container {
