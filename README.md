@@ -22,14 +22,19 @@ Para Windows podemos acceder a la pagina oficial de Ruby para poder comenzar a l
 # Instalación de SASS
 
 ## Instalación mediante NPM
+
 Ejecutar el siguiente comando de manera global, dado que es un preprocesador y no un packete individual.
+
 - npm install -g sass
 
 ### (Opcional) Instalacion de Ruby para SASS
+
 Instalación de Ruby
 https://rubyinstaller.org/downloads/
 usar la version 3.1.2-1
+
 ### (Opcional) Instalación de con Ruby SASS
+
 Instalación de SASS posteriormente a la instalación de Ruby mediante la linea de comandos dentro de la carpeta de nuestro proyecto.
 gem install sass
 
@@ -51,4 +56,7 @@ El montaje de este proyecto esta descrito para ambiente Windows por lo que la in
 
 # Adicionales
 
-En lo posible usar la extencion Prettier de VS Code para mantener el mismo identado todos.
+- Formateo de codigo:
+  En lo posible usar la extencion Prettier de VS Code para mantener el mismo identado todos.
+- Servidor virtual:
+  Es posible utilizar la extención de VS Code llamada Live Server para visualizar el software con actualizaciones en automatico al guardar
