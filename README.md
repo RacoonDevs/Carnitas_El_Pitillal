@@ -21,14 +21,14 @@ Para Windows podemos acceder a la pagina oficial de Ruby para poder comenzar a l
 
 # Instalación de SASS
 
-## (OPCIONAL RUBY)
+## Instalacion de Ruby para SASS
 
 Instalación de Ruby
 
 https://rubyinstaller.org/downloads/
 usar la version 3.1.2-1
 
-## (OPCIONAL RUBY)
+## Instalación de SASS
 
 Instalación de SASS posteriormente a la instalación de Ruby mediante la linea de comandos dentro de la carpeta de nuestro proyecto.
 
