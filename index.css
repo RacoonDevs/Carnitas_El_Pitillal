@@ -1,0 +1,28 @@
+@font-face {
+  font-family: max-light;
+  src: url("./fonts/maxwell/MAXWELL_LIGHT.ttf");
+  font-weight: lighter;
+}
+@font-face {
+  font-family: max-bold;
+  src: url("./fonts/maxwell/MAXWELL_BOLD.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: max-regular;
+  src: url("./fonts/maxwell/MAXWELL_REGULAR.ttf");
+  font-weight: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: max-regular, Arial, Helvetica, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}

@@ -6,8 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Carnitas el Pitillal</title>
     <script src="./scripts/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="/styles/navbar.css" />
   </head>
   <body>
-    <h1>Bienvenidos a Carnitas el Pitillal</h1>
+    <nav class="navbar">
+      <!-- logo -->
+      <div class="logo">
+        <a href="/">
+          <img src="./assets/Logo-carnitas.png" alt="logo-carnitas-pitillal" />
+        </a>
+      </div>
+      <ul class="nav-links">
+        <!-- checkbox -->
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+        <!-- navigation menu -->
+        <div class="menu">
+          <li><a href="#tacos">Tacos</a></li>
+          <li>
+            <a href="#quesadillas-y-gorditas">Quesadillas y Gorditas</a>
+          </li>
+          <li><a href="#especiales">Especiales</a></li>
+          <li><a href="#promociones">Promociones</a></li>
+          <li><a href="#historia">Historia</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </div>
+      </ul>
+    </nav>
+    <div class="container">
+      <h1>Bienvenidos a Carnitas el Pitillal</h1>
+    </div>
   </body>
 </html>

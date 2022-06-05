@@ -1,0 +1,80 @@
+.container {
+  height: 200vh;
+}
+/* navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 30px;
+  background-color: #3b3632;
+  color: #fff;
+}
+
+/* Logo */
+.navbar img {
+  height: 75px;
+}
+/* Navbar menu */
+.navbar a {
+  font-family: max-bold;
+  color: white;
+  font-size: 22px;
+}
+
+.navs {
+  display: flex;
+  justify-content: space-between;
+}
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+}
+.menu li:hover {
+  background-color: #cc3c24;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+.menu li {
+  padding: 5px 14px;
+}
+
+/* navbar responsiva */
+input[type="checkbox"] {
+  display: none;
+}
+/* menu hamburguesa */
+.hamburger {
+  display: none;
+  font-size: 24px;
+  user-select: none;
+  cursor: pointer;
+}
+@media (max-width: 1023px) {
+  .menu {
+    display: none;
+    position: absolute;
+    margin-top: 30px;
+    background-color: #3b3632;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 50px 0;
+    height: 100%;
+  }
+  .menu li:hover {
+    display: inline-block;
+    background-color: #cc3c24;
+    transition: 0.3s ease;
+  }
+  .menu li + li {
+    margin-top: 22px;
+  }
+  input[type="checkbox"]:checked ~ .menu {
+    display: block;
+  }
+  .hamburger {
+    display: block;
+  }
+}
