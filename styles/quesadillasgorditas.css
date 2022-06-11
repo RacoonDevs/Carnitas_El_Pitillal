@@ -1,38 +1,88 @@
-.card-quesadillas-gorditas{
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    font-size: 20px;
-    padding: 0 5%;
-    /* width: 100%; */
-    height: 200px;
-    margin-top: 15px;
+.container-quesadillas {
+  background-image: url("../assets/bg_quesadillas_y_gorditas.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 1rem;
+  height: auto;
+  width: 100%;
+}
+.quesadilla-text {
+  padding-top: 4%;
+  font-size: 3rem;
+  text-align: center;
+}
+.body-quesadillas {
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  padding: 5%;
+  display: flex;
+  text-align: center;
+  gap: 5%;
+}
+.left-side {
+  width: 50%;
+  color: #000;
+  height: auto;
+}
+.right-side {
+  width: 50%;
+  color: #fff;
+  height: auto;
+}
+.title-section {
+  font-family: Max-bold;
+  font-size: 5rem;
+}
+.centrar-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  width: 100%;
+}
+
+.card-quesadillas-gorditas {
+  /* grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  font-size: 20px;
+  padding: 0 5%; */
+  /* width: 100%; */
+  /* height: 200px; */
+  /* margin-top: 15px; */
+  /* padding: 0 5%; */
+  width: 100%;
+  max-height: 350px;
 }
 .box-quesadillas-gorditas {
-    display: flex;
-    border-radius: 50px;
-    background-color: #ec3a2c;
-    text-align: right;
-    height: auto;
-    width: 100%;
+  border-radius: 20px;
+  background-color: #ec3a2c;
+  text-align: right;
+  width: 100%;
+  /* height: 100%; */
+
+  display: flex;
+  justify-content: space-evenly;
 }
 .card-texto {
-    text-align: justify;
-    font-size: 25px;
-    color: white;
-    height: auto;
-    width: 318%;
-    padding: 20px;
+  text-align: justify;
+  font-size: 1.5rem;
+  color: white;
+  height: auto;
+  padding: 20px;
 }
-.card-titulo{
-    font-size: 35px;
-    align-self: center;
+.card-titulo {
+  font-size: 2.5rem;
+  align-self: center;
 }
-.formato-img{
-    border-radius: 30px;
+.card-img {
+  width: 40%;
 }
-.centrar-cards{
-    justify-content: center;
+.card-img img {
+  height: 100%;
+  border-radius: 20px;
 }
-.fondo-quesadillas{
-    background-image: url('../fondos/fondoquesadillas1.png');
+.formato-img {
+  border-radius: 30px;
+  width: 100%;
 }
