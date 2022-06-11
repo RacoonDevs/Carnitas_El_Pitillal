@@ -1,0 +1,38 @@
+.card-quesadillas-gorditas{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    font-size: 20px;
+    padding: 0 5%;
+    /* width: 100%; */
+    height: 200px;
+    margin-top: 15px;
+}
+.box-quesadillas-gorditas {
+    display: flex;
+    border-radius: 50px;
+    background-color: #ec3a2c;
+    text-align: right;
+    height: auto;
+    width: 100%;
+}
+.card-texto {
+    text-align: justify;
+    font-size: 25px;
+    color: white;
+    height: auto;
+    width: 318%;
+    padding: 20px;
+}
+.card-titulo{
+    font-size: 35px;
+    align-self: center;
+}
+.formato-img{
+    border-radius: 30px;
+}
+.centrar-cards{
+    justify-content: center;
+}
+.fondo-quesadillas{
+    background-image: url('../fondos/fondoquesadillas1.png');
+}
