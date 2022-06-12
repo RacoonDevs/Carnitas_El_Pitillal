@@ -217,8 +217,3 @@ aside:last-of-type {
   margin-bottom: 3%;
   padding-right: 3%;
 }
-
-.wave {
-  position: absolute;
-  z-index: -1;
-}
