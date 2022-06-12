@@ -68,7 +68,7 @@
       <div class="grid-tacos">
         <aside class="menu-tacos">
           <div class="grid-menu-tacos">
-            <div class="box-tacos">
+            <div id="carnitas" class="box-tacos">
               <img src="./assets/taco-carnitas.jpg" alt="" />
               <p>Tacos de masiza</p>
             </div>
@@ -109,8 +109,8 @@
           </div>
           <div class="taco-box">
             <img src="./assets/taco-carnitas.jpg" alt="" />
-            <h2>Taco de masiza</h2>
-            <h5>
+            <h2 id="taco-title">Taco de masiza</h2>
+            <h5 id="taco-description">
               Delicioso taco de carne de cerdo acompañado de tortillas torteadas
               al momento, salsas y verduras para acompañar.
             </h5>
@@ -227,7 +227,7 @@
         </section>
       </div>
     </section>
-
+    <script src="./scripts/main.js"></script>
     <script type="text/javascript">
       window.addEventListener("scroll", function () {
         var header = document.querySelector("nav");
