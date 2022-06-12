@@ -229,8 +229,6 @@ aside:last-of-type {
   margin-bottom: 3%;
   padding-right: 3%;
 }
-<<<<<<< HEAD
-=======
 
 @media (max-width: 1023px) {
   .box-tacos {
@@ -245,4 +243,3 @@ aside:last-of-type {
     border-radius: 20px;
   }
 }
->>>>>>> master
