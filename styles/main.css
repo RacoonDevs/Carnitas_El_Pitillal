@@ -65,6 +65,10 @@ main {
   display: none;
 }
 
+.tacos-container {
+  margin-top: 50px;
+}
+
 @media (max-width: 1023px) {
   .main-container {
     height: 80%;
@@ -113,16 +117,6 @@ aside:last-of-type {
   grid-area: right;
   /* background-color: aqua; */
 }
-@media (min-width: 1200px) {
-  .grid-tacos {
-    grid-template-areas:
-      "left right"
-      "left right";
-
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-  }
-}
 /* Menu de tacos */
 .menu-tacos {
   margin-top: 15%;
@@ -138,6 +132,24 @@ aside:last-of-type {
   padding: 0 5%;
   /* width: 100%; */
   height: auto;
+}
+@media (max-width: 1023px) {
+  .grid-tacos {
+    grid-template-areas:
+      "right right"
+      "left  left";
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    height: auto;
+  }
+  .grid-menu-tacos {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    height: auto;
+    width: 400%;
+  }
 }
 .grid-menu-tacos::-webkit-scrollbar {
   width: 20px; /* Tamaño del scroll en vertical */
@@ -217,3 +229,20 @@ aside:last-of-type {
   margin-bottom: 3%;
   padding-right: 3%;
 }
+<<<<<<< HEAD
+=======
+
+@media (max-width: 1023px) {
+  .box-tacos {
+    width: 100%;
+    border-radius: 20px;
+  }
+  .box-tacos p {
+    font-size: 1.5rem;
+  }
+  .box-tacos img {
+    width: 100%;
+    border-radius: 20px;
+  }
+}
+>>>>>>> master
