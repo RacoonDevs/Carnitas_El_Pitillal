@@ -7,6 +7,7 @@
   width: 100%;
 }
 .quesadilla-text {
+  margin-top: 4%;
   padding-top: 4%;
   font-size: 3rem;
   text-align: center;
@@ -43,14 +44,6 @@
 }
 
 .card-quesadillas-gorditas {
-  /* grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  font-size: 20px;
-  padding: 0 5%; */
-  /* width: 100%; */
-  /* height: 200px; */
-  /* margin-top: 15px; */
-  /* padding: 0 5%; */
   width: 100%;
   max-height: 350px;
 }
@@ -59,8 +52,6 @@
   background-color: #ec3a2c;
   text-align: right;
   width: 100%;
-  /* height: 100%; */
-
   display: flex;
   justify-content: space-evenly;
 }
@@ -85,4 +76,46 @@
 .formato-img {
   border-radius: 30px;
   width: 100%;
+}
+
+@media (max-width: 1023px) {
+  .container-quesadillas {
+    background-image: none;
+  }
+  .body-quesadillas {
+    display: block;
+  }
+  .left-side {
+    width: 100%;
+    margin: 10% 0;
+  }
+  .right-side {
+    width: 100%;
+    color: #000;
+    margin: 5% 0;
+  }
+  .title-section {
+    font-size: 4rem;
+  }
+  .centrar-cards {
+    display: block;
+  }
+  .card-quesadillas-gorditas {
+    margin: 10% 0;
+  }
+  .box-quesadillas-gorditas {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .card-texto {
+    text-align: center;
+  }
+  .card-img {
+    width: 100%;
+  }
+  .card-img img {
+    /* height: 100%; */
+    width: 100%;
+    max-height: 200px;
+  }
 }
