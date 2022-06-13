@@ -1,0 +1,40 @@
+.content-principal{
+    display: flex;
+    align-items: start;
+    text-align: center;
+}
+.contents-first-childs{
+    width: 100%;
+    display: grid;
+    flex-direction: column;
+    text-align: left;
+    background-color: #ec3a2c;
+    padding-top: 15px;
+    height: 150px;
+}
+.contents-second-childs{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #ec3a2c;
+    padding-top: 15px;
+    height: 150px;
+}
+.contents-third-childs{
+    width: 100%;
+    display: flex;
+    text-align: left;
+    background-color: #ec3a2c;
+    padding-top: 15px;
+    height: 150px;
+}
+.img-footer{
+    margin: 10px;
+}
+.first-section{
+    font-size: 20px;
+    color: white;
+}
+.div-first-section{
+    padding-left: 30px;
+}
