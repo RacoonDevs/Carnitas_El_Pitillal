@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Carnitas el Pitillal</title>
-    <script src="./scripts/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="./styles/navbar.css" />
     <link rel="stylesheet" href="./styles/main.css" />
     <link rel="stylesheet" href="./styles/quesadillasgorditas.css" />
     <link rel="stylesheet" href="./styles/footer.css" />
+    <script src="./scripts/jquery-3.6.0.min.js"></script>
   </head>
   <body>
     <nav class="navbar opacity">
@@ -37,6 +37,16 @@
         </div>
       </ul>
     </nav>
+    <div class="floating-icons">
+      <a
+        href="https://ubereats.app.link/6876QamZNqb"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src="./assets/uber-eats.png" alt="uber-eats" />
+      </a>
+      <img src="./assets/didi.png" alt="didi" />
+    </div>
     <main>
       <div class="main-container">
         <div class="main-text">
@@ -65,41 +75,73 @@
     </main>
     <section id="tacos"></section>
 
-    <section id="tacos">
+    <section id="tacos" class="tacos-container">
       <div class="grid-tacos">
         <aside class="menu-tacos">
           <div class="grid-menu-tacos">
-            <div class="box-tacos">
+            <div id="carnitas" class="box-tacos">
               <img src="./assets/taco-carnitas.jpg" alt="" />
               <p>Tacos de masiza</p>
+              <h6 hidden>
+                Deliciso taco de carne de cerdo servida en tortilla de maíz
+                elaborada al momento con proteina en presentación de pura carne.
+              </h6>
             </div>
             <div class="box-tacos">
-              <img src="./assets/taco-carnitas.jpg" alt="" />
+              <img src="./assets/birria-tacos.jpg" alt="" />
               <p>Tacos de carnitas</p>
+              <h6 hidden>
+                Taco de carne de cerdo acompañado de tortillas torteadas al
+                momento, salsas y verduras para acompañar.
+              </h6>
             </div>
             <div class="box-tacos">
               <img src="./assets/taco-carnitas.jpg" alt="" />
               <p>Tacos de buche</p>
+              <h6 hidden>
+                Deliciso taco de carne de cerdo servida en tortilla de maíz
+                elaborada al momento con proteina en presentación de pura carne.
+              </h6>
+            </div>
+            <div class="box-tacos">
+              <img src="./assets/birria-tacos.jpg" alt="" />
+              <p>Tacos de Birria</p>
+              <h6 hidden>
+                Taco de carne de cerdo acompañado de tortillas torteadas al
+                momento, salsas y verduras para acompañar.
+              </h6>
+            </div>
+            <div id="carnitas" class="box-tacos">
+              <img src="./assets/taco-carnitas.jpg" alt="" />
+              <p>Tacos de masiza</p>
+              <h6 hidden>
+                Deliciso taco de carne de cerdo servida en tortilla de maíz
+                elaborada al momento con proteina en presentación de pura carne.
+              </h6>
+            </div>
+            <div class="box-tacos">
+              <img src="./assets/birria-tacos.jpg" alt="" />
+              <p>Tacos de carnitas</p>
+              <h6 hidden>
+                Taco de carne de cerdo acompañado de tortillas torteadas al
+                momento, salsas y verduras para acompañar.
+              </h6>
             </div>
             <div class="box-tacos">
               <img src="./assets/taco-carnitas.jpg" alt="" />
-              <p>Tacos de costilla</p>
+              <p>Tacos de buche</p>
+              <h6 hidden>
+                Deliciso taco de carne de cerdo servida en tortilla de maíz
+                elaborada al momento con proteina en presentación de pura carne.
+              </h6>
             </div>
             <div class="box-tacos">
               <img src="./assets/birria-tacos.jpg" alt="" />
-              <p>Tacos de lengua</p>
-            </div>
-            <div class="box-tacos">
-              <img src="./assets/birria-tacos.jpg" alt="" />
-              <p>Tacos de surtido</p>
-            </div>
-            <div class="box-tacos">
-              <img src="./assets/birria-tacos.jpg" alt="" />
-              <p>Tacos de seso</p>
-            </div>
-            <div class="box-tacos">
-              <img src="./assets/birria-tacos.jpg" alt="" />
-              <p>Tacos de ojo</p>
+              <p>Tacos de Birria</p>
+              <h6 hidden>
+                Taco de carne de cerdo acompañado de tortillas torteadas al
+                momento, salsas y verduras para acompañar.
+              </h6>
             </div>
           </div>
         </aside>
@@ -109,9 +151,9 @@
             <h5>Conoce nuestra amplia variedad de tacos</h5>
           </div>
           <div class="taco-box">
-            <img src="./assets/taco-carnitas.jpg" alt="" />
-            <h2>Taco de masiza</h2>
-            <h5>
+            <img src="./assets/taco-carnitas.jpg" id="taco-img" alt="" />
+            <h2 id="taco-title">Taco de masiza</h2>
+            <h5 id="taco-description">
               Delicioso taco de carne de cerdo acompañado de tortillas torteadas
               al momento, salsas y verduras para acompañar.
             </h5>
@@ -128,7 +170,7 @@
         <section class="left-side">
           <h5 class="title-section">Quesadillas</h5>
           <div class="centrar-cards">
-            <div class="card-quesadillas-gorditas">
+            <div class="card-quesadillas-gorditas card-quesadillas-slide-left">
               <div class="box-quesadillas-gorditas">
                 <div class="card-texto">
                   <label class="card-titulo">Quesadilla sencilla</label>
@@ -146,7 +188,7 @@
                 </div>
               </div>
             </div>
-            <div class="card-quesadillas-gorditas">
+            <div class="card-quesadillas-gorditas card-quesadillas-slide-left">
               <div class="box-quesadillas-gorditas">
                 <div class="card-texto">
                   <label class="card-titulo">Quesadilla sencilla</label>
@@ -170,7 +212,7 @@
         <section class="right-side">
           <h5 class="title-section">Gorditas</h5>
           <div class="centrar-cards">
-            <div class="card-quesadillas-gorditas">
+            <div class="card-quesadillas-gorditas card-quesadillas-slide-right">
               <div class="box-quesadillas-gorditas">
                 <div class="card-texto">
                   <label class="card-titulo">Gordita de queso</label>
@@ -188,7 +230,7 @@
                 </div>
               </div>
             </div>
-            <div class="card-quesadillas-gorditas">
+            <div class="card-quesadillas-gorditas card-quesadillas-slide-right">
               <div class="box-quesadillas-gorditas">
                 <div class="card-texto">
                   <label class="card-titulo">Gordita de queso</label>
@@ -206,7 +248,7 @@
                 </div>
               </div>
             </div>
-            <div class="card-quesadillas-gorditas">
+            <div class="card-quesadillas-gorditas card-quesadillas-slide-right">
               <div class="box-quesadillas-gorditas">
                 <div class="card-texto">
                   <label class="card-titulo">Gordita de queso</label>
@@ -228,7 +270,7 @@
         </section>
       </div>
     </section>
-
+    <script src="./scripts/main.js"></script>
     <script type="text/javascript">
       window.addEventListener("scroll", function () {
         var header = document.querySelector("nav");
