@@ -24,6 +24,9 @@ footer {
 .referencia p {
   color: white;
 }
+.referencia p a {
+  color: white;
+}
 .referencia a p:hover {
   background-color: #cc3c24;
   border-radius: 5px;
