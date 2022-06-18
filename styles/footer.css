@@ -1,51 +1,59 @@
-.content-principal{
-    display: flex;
-    align-items: start;
+footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: #080404;
+  gap: 40px;
+  color: white;
+  padding: 5%;
+}
+.content-principal {
+  color: white;
+}
+.logo-footer {
+  width: 100%;
+}
+.logo-footer img {
+  width: 50%;
+}
+.referencia {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-decoration: none;
+}
+.referencia p {
+  color: white;
+}
+.referencia a p:hover {
+  background-color: #cc3c24;
+  border-radius: 5px;
+  transition: 0.3s ease;
+  padding: 20px;
+}
+.icons-footer {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  align-content: center;
+}
+hr {
+  display: none;
+}
+@media (max-width: 1023px) {
+  footer {
+    display: block;
     text-align: center;
-}
-.contents-first-childs{
-    width: 100%;
+  }
+  .icons-footer {
+    padding-top: 20px;
     display: flex;
-    text-align: left;
-    background-color: #080404;
-    padding-top: 15px;
-    height: 150px;
-}
-.contents-second-childs{
-    width: 100%;
-    display: grid;
+    gap: 10px;
     justify-content: center;
-    background-color: #080404;
-    padding-top: 15px;
-    height: 150px;
-    color: white;
-    text-align: justify;
-}
-.contents-third-childs{
-    width: 100%;
-    display: grid;
-    text-align: left;
-    background-color: #080404;
-    padding-top: 15px;
-    height: 150px;
-    color: white;
-}
-.img-footer{
-    margin: 10px;
-}
-.first-section{
-    font-size: 20px;
-    color: white;
-}
-.div-first-section{
-    padding-left: 30px;
-}
-.div-section-contacts {
-    display: grid;
-    padding-left: 20%;
-    color: white;
-    font-size: 20px;
-}
-.atribucion-icons{
-    font-size: 11px;
+  }
+  .pt {
+    padding: 50px;
+  }
+  hr {
+    display: block;
+  }
 }
