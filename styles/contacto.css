@@ -1,0 +1,97 @@
+.color-fondo{
+    background-color: #726564;
+    height: 100vh;
+    z-index: 0;
+}
+.container-parent{
+    position: relative;
+    display: flex;
+}
+.primer-container{
+    position: absolute;
+    left: 0;
+    width: 20%;
+    text-align: right;
+    justify-content: right;
+    margin-left: 15%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    z-index: 1;
+    display: flex;
+    align-self: center;
+}
+.segundo-container{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin-top: 1%;
+    justify-items: center;
+    justify-content: center;
+    margin-bottom: 1%;
+    z-index: 2;
+    padding: 1% 15% ;
+}
+.div-central-segundo-container{
+    width: 70%;
+    height: 100%;
+    box-shadow: -6px 6px 6px 6px rgba(0, 0, 0, 0.5);
+    background-color: white;
+}
+.tercer-container{
+    text-align: left;
+    justify-content: left;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    z-index: 3;
+    position: absolute;
+    right: 0;
+    margin-right: 10%;
+    display: flex;
+    align-self: center;
+    box-shadow: -6px 6px 6px 6px rgba(0, 0, 0, 0.5);
+}
+
+.contacto-hr {
+    display: flex;
+}
+.title-contacto{
+    color: #ec3a2c;
+    font-size: 50px;
+}
+.phone-number{
+    width: 100%;
+    margin-top: 5%;
+    text-align: right;
+    height: 150px;
+    display: flex;
+}
+.first-div-phonenumber{
+    padding-top: 10%;
+    justify-content: center;
+    text-align: center;
+    width: 20%;
+}
+.second-div-phonenumber{
+    padding-top: 13%;
+    justify-content: left;
+    text-align: left;
+    width: 80%;
+}
+.tel-contacto{
+    font-size: 27px;
+}
+.location{
+    width: 100%;
+    text-align: right;
+    height: 150px;
+    display: flex;
+}
+.footer-div-contacto{
+    margin-top: 15%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-self: baseline;
+    gap: 20px;
+
+}
