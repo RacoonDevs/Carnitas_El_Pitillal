@@ -39,6 +39,12 @@ footer {
   align-items: center;
   align-content: center;
 }
+.powerby {
+  width: 100%;
+}
+.powerby img {
+  width: 100%;
+}
 hr {
   display: none;
 }

@@ -13,14 +13,14 @@ main {
   position: fixed;
   right: 0;
   bottom: 0;
-  margin: 3%;
+  margin: 2%;
   display: flex;
   flex-direction: column;
   gap: 15px;
   z-index: 4;
 }
 .floating-icons img {
-  width: 64px;
+  width: 50px;
   cursor: pointer;
 }
 .main-container {

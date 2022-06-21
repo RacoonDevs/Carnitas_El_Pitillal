@@ -83,7 +83,6 @@
   font-weight: bold;
 }
 .footer-div-contacto {
-  margin-top: 15%;
   margin-bottom: 5%;
   display: flex;
   justify-content: center;
@@ -95,6 +94,14 @@
 }
 .footer-div-contacto img {
   width: 4rem;
+}
+.contacto-redes {
+  margin-top: 15%;
+}
+.contacto-redes-title {
+  font-weight: bold;
+  font-size: 2rem;
+  padding-bottom: 1rem;
 }
 
 @media (max-width: 1023px) {
@@ -116,8 +123,6 @@
     display: block;
     margin: 0;
     padding: 0;
-  }
-  .info-contacto {
   }
   .tercer-container {
     display: block;

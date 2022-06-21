@@ -1,9 +1,9 @@
 .container {
   height: 200vh;
 }
-.opacity {
-  background: rgba(0, 0, 0, 0.7);
-}
+/* .opacity {
+  background: rgba(0, 0, 0, 0.1);
+} */
 /* navbar */
 .navbar {
   display: flex;
