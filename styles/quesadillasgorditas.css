@@ -134,6 +134,9 @@
   .card-quesadillas-gorditas {
     margin: 10% 0;
   }
+  .card-quesadillas-gorditas:last-child {
+    display: none;
+  }
   .box-quesadillas-gorditas {
     display: flex;
     height: auto;

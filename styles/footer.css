@@ -43,7 +43,7 @@ footer {
   width: 100%;
 }
 .powerby img {
-  width: 100%;
+  width: 80%;
 }
 hr {
   display: none;
@@ -64,5 +64,8 @@ hr {
   }
   hr {
     display: block;
+  }
+  .powerby img {
+    width: 100%;
   }
 }

@@ -69,6 +69,17 @@
     display: flex;
     justify-content: center;
   }
+  /* .promo-main-contain {
+    background-color: #ec3a2c;
+    color: white;
+  }
+  .promo-main-contain h2 {
+    color: white;
+  } */
+  .promo-hr {
+    display: block;
+    color: white;
+  }
   .promo-side {
     display: none;
   }
