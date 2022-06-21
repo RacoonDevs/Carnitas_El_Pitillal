@@ -28,7 +28,7 @@
 .promo-main-contain {
   background-color: white;
   height: 100%;
-  padding: 5%;
+  /* padding: 5%; */
   text-align: center;
   box-shadow: -5px 5px 5px 5px rgba(0, 0, 0, 0.5),
     5px 5px 5px 5px rgba(0, 0, 0, 0.5);
@@ -58,6 +58,18 @@
 }
 .promo-hr {
   display: block;
+}
+.promo-img-1 {
+  box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.7);
+}
+.promo-img-2 {
+  box-shadow: 6px -6px 6px 6px rgba(0, 0, 0, 0.7);
+}
+.promo-img-3 {
+  box-shadow: -6px 6px 6px 6px rgba(0, 0, 0, 0.7);
+}
+.promo-img-4 {
+  box-shadow: -6px -6px 6px 6px rgba(0, 0, 0, 0.7);
 }
 
 @media (max-width: 1023px) {

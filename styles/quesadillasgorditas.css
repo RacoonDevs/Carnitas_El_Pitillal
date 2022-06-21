@@ -112,17 +112,21 @@
 @media (max-width: 1023px) {
   .container-quesadillas {
     background-image: none;
+    background-color: #726564;
   }
   .body-quesadillas {
     display: block;
   }
+  .quesadilla-text {
+    color: #fff;
+  }
   .left-side {
     width: 100%;
     margin: 10% 0;
+    color: #fff;
   }
   .right-side {
     width: 100%;
-    color: #000;
     margin: 5% 0;
   }
   .title-section {

@@ -226,6 +226,7 @@ aside:last-of-type {
   background-color: #ec3a2c;
   text-align: center;
   height: auto;
+  max-height: 50vh;
 }
 .taco-box h2 {
   font-size: 2.5rem;
@@ -248,6 +249,7 @@ aside:last-of-type {
   .box-tacos {
     width: 100%;
     border-radius: 20px;
+    margin-bottom: 2%;
   }
   .box-tacos p {
     font-size: 1.5rem;
