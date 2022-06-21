@@ -1,97 +1,147 @@
-.color-fondo{
-    background-color: #726564;
-    height: 100vh;
-    z-index: 0;
+.color-fondo {
+  background-color: #726564;
+  height: auto;
+  z-index: 0;
 }
-.container-parent{
-    position: relative;
-    display: flex;
+.container-parent {
+  position: relative;
+  display: flex;
 }
-.primer-container{
-    position: absolute;
-    left: 0;
-    width: 20%;
-    text-align: right;
-    justify-content: right;
-    margin-left: 15%;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    z-index: 1;
-    display: flex;
-    align-self: center;
+.primer-container {
+  position: absolute;
+  left: 0;
+  width: 20%;
+  text-align: right;
+  justify-content: right;
+  margin-left: 25%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  z-index: 1;
+  display: flex;
+  align-self: center;
 }
-.segundo-container{
-    display: flex;
-    width: 100%;
-    text-align: center;
-    margin-top: 1%;
-    justify-items: center;
-    justify-content: center;
-    margin-bottom: 1%;
-    z-index: 2;
-    padding: 1% 15% ;
+.primer-container img {
+  height: 70vh;
 }
-.div-central-segundo-container{
-    width: 70%;
-    height: 100%;
-    box-shadow: -6px 6px 6px 6px rgba(0, 0, 0, 0.5);
-    background-color: white;
+.segundo-container {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  margin-top: 1%;
+  justify-items: center;
+  justify-content: center;
+  margin-bottom: 1%;
+  z-index: 2;
+  padding: 1% 15%;
 }
-.tercer-container{
-    text-align: left;
-    justify-content: left;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    z-index: 3;
-    position: absolute;
-    right: 0;
-    margin-right: 10%;
-    display: flex;
-    align-self: center;
-    box-shadow: -6px 6px 6px 6px rgba(0, 0, 0, 0.5);
+.div-central-segundo-container {
+  width: 50%;
+  height: 100%;
+  box-shadow: -6px 6px 6px 6px rgba(0, 0, 0, 0.5);
+  background-color: white;
+}
+.tercer-container {
+  justify-content: left;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  z-index: 3;
+  position: absolute;
+  right: 0;
+  margin-right: 10%;
+  display: flex;
+  align-self: center;
+  box-shadow: -6px 6px 6px 6px rgba(0, 0, 0, 0.5);
+  text-align: left;
+}
+.tercer-container iframe {
+  width: 27vw;
+  height: 70vh;
 }
 
 .contacto-hr {
-    display: flex;
+  display: flex;
 }
-.title-contacto{
-    color: #ec3a2c;
-    font-size: 50px;
+.title-contacto {
+  color: #ec3a2c;
+  font-size: 50px;
 }
-.phone-number{
-    width: 100%;
-    margin-top: 5%;
-    text-align: right;
-    height: 150px;
-    display: flex;
+.info-contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  height: 40vh;
+  padding-left: 5%;
+  text-align: left;
 }
-.first-div-phonenumber{
-    padding-top: 10%;
-    justify-content: center;
-    text-align: center;
-    width: 20%;
+.info-contacto-item {
+  display: flex;
+  gap: 2rem;
+  font-size: 1.5rem;
+  padding-right: 10%;
 }
-.second-div-phonenumber{
-    padding-top: 13%;
-    justify-content: left;
-    text-align: left;
-    width: 80%;
+.tel-contacto {
+  font-weight: bold;
 }
-.tel-contacto{
-    font-size: 27px;
+.footer-div-contacto {
+  margin-top: 15%;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: center;
+  align-self: baseline;
+  gap: 20px;
 }
-.location{
-    width: 100%;
-    text-align: right;
-    height: 150px;
-    display: flex;
+.footer-div-contacto a {
+  cursor: pointer;
 }
-.footer-div-contacto{
-    margin-top: 15%;
-    margin-bottom: 5%;
-    display: flex;
-    justify-content: center;
-    align-self: baseline;
-    gap: 20px;
+.footer-div-contacto img {
+  width: 4rem;
+}
 
+@media (max-width: 1023px) {
+  .color-fondo {
+    height: auto;
+  }
+  .primer-container {
+    display: none;
+  }
+  .segundo-container {
+    width: 100%;
+    /* height: 100%; */
+    padding: 0;
+  }
+  .div-central-segundo-container {
+    width: 100%;
+  }
+  .segundo-container {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  .info-contacto {
+  }
+  .tercer-container {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: 0;
+  }
+  .tercer-container iframe {
+    width: 100%;
+  }
+  .footer-div-contacto {
+    padding: 5%;
+    margin: 0;
+  }
+}
+@media (max-width: 768px) {
+  .container-parent {
+    display: block;
+  }
+  .segundo-container {
+    display: block;
+  }
+  .tercer-container {
+    display: block;
+    position: relative;
+  }
 }

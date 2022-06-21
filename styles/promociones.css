@@ -1,5 +1,5 @@
 .promociones-contain {
-  min-height: 120vh;
+  min-height: 100vh;
   background-color: #ec3a2c;
   position: relative;
 }
@@ -9,7 +9,7 @@
   gap: 30px;
   position: relative;
   width: auto;
-  height: 120vh;
+  height: 100vh;
 }
 .promo-side {
   width: auto;
@@ -18,8 +18,12 @@
   justify-content: space-between;
   height: auto;
 }
-.promo-side img {
-  width: 100%;
+/* .promo-side img { */
+/* width: 100%; */
+/* } */
+.promo-side-right {
+  /* justify-content: right; */
+  align-items: flex-end;
 }
 .promo-main-contain {
   background-color: white;
@@ -36,6 +40,10 @@
 }
 .promo-main-contain p {
   font-size: 1.5rem;
+}
+.promo-flex {
+  display: flex;
+  gap: 1rem;
 }
 .item-promo {
   width: 100%;
