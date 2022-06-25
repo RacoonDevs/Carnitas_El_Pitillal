@@ -18,29 +18,55 @@
   </head>
   <body>
     <nav class="navbar opacity">
-      <!-- logo -->
       <div class="logo">
         <a href="/">
           <img src="./assets/Logo-carnitas.png" alt="logo-carnitas-pitillal" />
         </a>
       </div>
       <ul class="nav-links">
-        <!-- checkbox -->
-        <input type="checkbox" id="checkbox_toggle" />
-        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-        <!-- navigation menu -->
-        <div class="menu">
-          <li><a href="#tacos">Tacos</a></li>
+        <div class="toggle-button">
+          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+        </div>
+
+        <div class="menu navbar-links">
+          <ul class="navbar-item">
+            <li><a href="#tacos">Tacos</a></li>
+            <li>
+              <a href="#quesadillas-y-gorditas">Quesadillas y Gorditas</a>
+            </li>
+            <li><a href="#especiales">Especiales</a></li>
+            <li><a href="#promociones">Promociones</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </div>
+        </ul>
+      </ul>
+    </nav>
+    <!-- <nav class="navbar">
+      <div class="brand-title">
+        <a href="/Carnitas_El_Pitillal/"
+          ><img src="./assets/Logo-carnitas.png" alt="logo-carnitas-pitillal"
+        /></a>
+      </div>
+      <div class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <div class="navbar-links">
+        <ul class="navbar-item">
+          <li>
+            <li><a href="#tacos">Tacos</a></li>
+          </li>
           <li>
             <a href="#quesadillas-y-gorditas">Quesadillas y Gorditas</a>
           </li>
           <li><a href="#especiales">Especiales</a></li>
           <li><a href="#promociones">Promociones</a></li>
-          <!-- <li><a href="#historia">Historia</a></li> -->
           <li><a href="#contacto">Contacto</a></li>
-        </div>
-      </ul>
-    </nav>
+        </ul>
+      </div>
+    </nav> -->
+
     <div class="floating-icons">
       <a
         href="https://ubereats.app.link/6876QamZNqb"
@@ -578,11 +604,6 @@
     </footer>
 
     <script src="./scripts/main.js"></script>
-    <script type="text/javascript">
-      window.addEventListener("scroll", function () {
-        var header = document.querySelector("nav");
-        header.classList.toggle("sticky", window.scrollY > 0);
-      });
-    </script>
+    <script type="text/javascript" src="./scripts/navbar.js"></script>
   </body>
 </html>

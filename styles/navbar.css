@@ -11,6 +11,7 @@
   justify-content: space-between;
   padding: 20px 30px;
   /* background-color: #000; */
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
   color: #fff;
   position: fixed;
   width: 100%;
@@ -21,6 +22,7 @@
 .sticky {
   background-color: #000;
   padding: 0px 30px;
+  transition: 0.6s;
 }
 
 /* Logo */
@@ -33,10 +35,10 @@
   color: white;
   font-size: 22px;
 }
-
-.navs {
+.navbar-links ul {
+  margin: 0;
+  padding: 0;
   display: flex;
-  justify-content: space-between;
 }
 .menu {
   display: flex;
@@ -94,5 +96,26 @@ input[type="checkbox"] {
   }
   .hamburger {
     display: block;
+  }
+  .toggle-button {
+    display: flex;
+    cursor: pointer;
+  }
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+  .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+  }
+  .navbar-links li {
+    text-align: center;
+  }
+  .navbar-links li a {
+    padding: 1rem;
+  }
+  .navbar-links.active {
+    display: flex;
   }
 }
