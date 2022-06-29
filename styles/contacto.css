@@ -1,0 +1,152 @@
+.color-fondo {
+  background-color: #726564;
+  height: auto;
+  z-index: 0;
+}
+.container-parent {
+  position: relative;
+  display: flex;
+}
+.primer-container {
+  position: absolute;
+  left: 0;
+  width: 20%;
+  text-align: right;
+  justify-content: right;
+  margin-left: 25%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  z-index: 1;
+  display: flex;
+  align-self: center;
+}
+.primer-container img {
+  height: 70vh;
+}
+.segundo-container {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  margin-top: 1%;
+  justify-items: center;
+  justify-content: center;
+  margin-bottom: 1%;
+  z-index: 2;
+  padding: 1% 15%;
+}
+.div-central-segundo-container {
+  width: 50%;
+  height: 100%;
+  box-shadow: -6px 6px 6px 6px rgba(0, 0, 0, 0.5);
+  background-color: white;
+}
+.tercer-container {
+  justify-content: left;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  z-index: 3;
+  position: absolute;
+  right: 0;
+  margin-right: 10%;
+  display: flex;
+  align-self: center;
+  box-shadow: -6px 6px 6px 6px rgba(0, 0, 0, 0.5);
+  text-align: left;
+}
+.tercer-container iframe {
+  width: 27vw;
+  height: 70vh;
+}
+
+.contacto-hr {
+  display: flex;
+}
+.title-contacto {
+  color: #ec3a2c;
+  font-size: 50px;
+}
+.info-contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  height: 40vh;
+  padding-left: 5%;
+  text-align: left;
+}
+.info-contacto-item {
+  display: flex;
+  gap: 2rem;
+  font-size: 1.5rem;
+  padding-right: 20%;
+}
+.tel-contacto {
+  font-weight: bold;
+}
+.footer-div-contacto {
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: center;
+  align-self: baseline;
+  gap: 20px;
+}
+.footer-div-contacto a {
+  cursor: pointer;
+}
+.footer-div-contacto img {
+  width: 4rem;
+}
+.contacto-redes {
+  margin-top: 15%;
+}
+.contacto-redes-title {
+  font-weight: bold;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 1023px) {
+  .color-fondo {
+    height: auto;
+  }
+  .primer-container {
+    display: none;
+  }
+  .segundo-container {
+    width: 100%;
+    /* height: 100%; */
+    padding: 0;
+  }
+  .div-central-segundo-container {
+    width: 100%;
+  }
+  .segundo-container {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  .tercer-container {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: 0;
+  }
+  .tercer-container iframe {
+    width: 100%;
+  }
+  .footer-div-contacto {
+    padding: 5%;
+    margin: 0;
+  }
+}
+@media (max-width: 768px) {
+  .container-parent {
+    display: block;
+  }
+  .segundo-container {
+    display: block;
+  }
+  .tercer-container {
+    display: block;
+    position: relative;
+  }
+}

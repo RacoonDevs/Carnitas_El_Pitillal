@@ -1,40 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Carnitas el Pitillal</title>
-    <script src="./scripts/jquery-3.6.0.min.js"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="./styles/navbar.css" />
     <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/quesadillasgorditas.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/promociones.css" />
+    <link rel="stylesheet" href="./styles/contacto.css" />
+    <link rel="stylesheet" href="./styles/especiales.css" />
+    <script src="./scripts/jquery-3.6.0.min.js"></script>
   </head>
   <body>
     <nav class="navbar opacity">
-      <!-- logo -->
       <div class="logo">
         <a href="/">
           <img src="./assets/Logo-carnitas.png" alt="logo-carnitas-pitillal" />
         </a>
       </div>
       <ul class="nav-links">
-        <!-- checkbox -->
-        <input type="checkbox" id="checkbox_toggle" />
-        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-        <!-- navigation menu -->
-        <div class="menu">
-          <li><a href="#tacos">Tacos</a></li>
+        <div class="toggle-button">
+          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+        </div>
+
+        <div class="menu navbar-links">
+          <ul class="navbar-item">
+            <li><a href="#tacos">Tacos</a></li>
+            <li>
+              <a href="#quesadillas-y-gorditas">Quesadillas y Gorditas</a>
+            </li>
+            <li><a href="#especiales">Especiales</a></li>
+            <li><a href="#promociones">Promociones</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </div>
+        </ul>
+      </ul>
+    </nav>
+    <!-- <nav class="navbar">
+      <div class="brand-title">
+        <a href="/Carnitas_El_Pitillal/"
+          ><img src="./assets/Logo-carnitas.png" alt="logo-carnitas-pitillal"
+        /></a>
+      </div>
+      <div class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <div class="navbar-links">
+        <ul class="navbar-item">
+          <li>
+            <li><a href="#tacos">Tacos</a></li>
+          </li>
           <li>
             <a href="#quesadillas-y-gorditas">Quesadillas y Gorditas</a>
           </li>
           <li><a href="#especiales">Especiales</a></li>
           <li><a href="#promociones">Promociones</a></li>
-          <li><a href="#historia">Historia</a></li>
           <li><a href="#contacto">Contacto</a></li>
-        </div>
-      </ul>
-    </nav>
+        </ul>
+      </div>
+    </nav> -->
+
+    <div class="floating-icons">
+      <a
+        href="https://ubereats.app.link/6876QamZNqb"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src="./assets/uber-eats.png" alt="uber-eats" />
+      </a>
+      <img src="./assets/didi.png" alt="didi" />
+    </div>
     <main>
       <div class="main-container">
         <div class="main-text">
@@ -63,11 +105,505 @@
     </main>
     <section id="tacos"></section>
 
-    <script type="text/javascript">
-      window.addEventListener("scroll", function () {
-        var header = document.querySelector("nav");
-        header.classList.toggle("sticky", window.scrollY > 0);
-      });
-    </script>
+    <section id="tacos" class="tacos-container">
+      <div class="grid-tacos">
+        <aside class="menu-tacos">
+          <div class="grid-menu-tacos">
+            <div id="carnitas" class="box-tacos">
+              <img src="./assets/taco-carnitas.jpg" alt="" />
+              <p>Tacos de masiza</p>
+              <h6 hidden>
+                Deliciso taco de carne de cerdo servida en tortilla de maíz
+                elaborada al momento con proteina en presentación de pura carne.
+              </h6>
+            </div>
+            <div class="box-tacos">
+              <img src="./assets/birria-tacos.jpg" alt="" />
+              <p>Tacos de carnitas</p>
+              <h6 hidden>
+                Taco de carne de cerdo acompañado de tortillas torteadas al
+                momento, salsas y verduras para acompañar.
+              </h6>
+            </div>
+            <div class="box-tacos">
+              <img src="./assets/taco-carnitas.jpg" alt="" />
+              <p>Tacos de buche</p>
+              <h6 hidden>
+                Deliciso taco de carne de cerdo servida en tortilla de maíz
+                elaborada al momento con proteina en presentación de pura carne.
+              </h6>
+            </div>
+            <div class="box-tacos">
+              <img src="./assets/birria-tacos.jpg" alt="" />
+              <p>Tacos de Birria</p>
+              <h6 hidden>
+                Taco de carne de cerdo acompañado de tortillas torteadas al
+                momento, salsas y verduras para acompañar.
+              </h6>
+            </div>
+            <div id="carnitas" class="box-tacos">
+              <img src="./assets/taco-carnitas.jpg" alt="" />
+              <p>Tacos de masiza</p>
+              <h6 hidden>
+                Deliciso taco de carne de cerdo servida en tortilla de maíz
+                elaborada al momento con proteina en presentación de pura carne.
+              </h6>
+            </div>
+            <div class="box-tacos">
+              <img src="./assets/birria-tacos.jpg" alt="" />
+              <p>Tacos de carnitas</p>
+              <h6 hidden>
+                Taco de carne de cerdo acompañado de tortillas torteadas al
+                momento, salsas y verduras para acompañar.
+              </h6>
+            </div>
+            <div class="box-tacos">
+              <img src="./assets/taco-carnitas.jpg" alt="" />
+              <p>Tacos de buche</p>
+              <h6 hidden>
+                Deliciso taco de carne de cerdo servida en tortilla de maíz
+                elaborada al momento con proteina en presentación de pura carne.
+              </h6>
+            </div>
+            <div class="box-tacos">
+              <img src="./assets/birria-tacos.jpg" alt="" />
+              <p>Tacos de Birria</p>
+              <h6 hidden>
+                Taco de carne de cerdo acompañado de tortillas torteadas al
+                momento, salsas y verduras para acompañar.
+              </h6>
+            </div>
+          </div>
+        </aside>
+        <aside class="main-description-tacos">
+          <div class="title-tacos">
+            <h1>Tacos</h1>
+            <h5>Conoce nuestra amplia variedad de tacos</h5>
+          </div>
+          <div class="taco-box">
+            <img src="./assets/taco-carnitas.jpg" id="taco-img" alt="" />
+            <h2 id="taco-title">Taco de masiza</h2>
+            <h5 id="taco-description">
+              Delicioso taco de carne de cerdo acompañado de tortillas torteadas
+              al momento, salsas y verduras para acompañar.
+            </h5>
+          </div>
+        </aside>
+      </div>
+    </section>
+    <!-- Quesadillas y gorditas -->
+    <section class="container-quesadillas" id="quesadillas-y-gorditas">
+      <div class="quesadilla-text">
+        <p>O tal vez eres de</p>
+      </div>
+      <div class="body-quesadillas">
+        <section class="left-side">
+          <h5 class="title-section">Quesadillas</h5>
+          <div class="centrar-cards">
+            <div class="card-quesadillas-gorditas card-quesadillas-slide-left">
+              <div class="box-quesadillas-gorditas">
+                <div class="card-texto">
+                  <label class="card-titulo">Quesadilla sencilla</label>
+                  <p>
+                    Quesadilla elaborada con queso y tortillas de maiz torteadas
+                    al instante.
+                  </p>
+                </div>
+                <div class="card-img">
+                  <img
+                    class="formato-img"
+                    src="./assets/quesadillat.jpg"
+                    alt="quesadilla-img"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="card-quesadillas-gorditas card-quesadillas-slide-left">
+              <div class="box-quesadillas-gorditas">
+                <div class="card-texto">
+                  <label class="card-titulo">Quesadilla sencilla</label>
+                  <p>
+                    Quesadilla elaborada con queso y tortillas de maiz torteadas
+                    al instante.
+                  </p>
+                </div>
+                <div class="card-img">
+                  <img
+                    class="formato-img"
+                    src="./assets/quesadillat.jpg"
+                    alt="quesadilla-img"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="card-quesadillas-gorditas card-quesadillas-slide-left">
+              <div class="box-quesadillas-gorditas">
+                <div class="card-texto">
+                  <label class="card-titulo">Quesadilla sencilla</label>
+                  <p>
+                    Quesadilla elaborada con queso, birria y tortillas de maiz
+                    torteadas al instante.
+                  </p>
+                </div>
+                <div class="card-img">
+                  <img
+                    class="formato-img"
+                    src="./assets/quesadillat.jpg"
+                    alt="quesadilla-img"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- background-color:#706c64; -->
+        <section class="right-side">
+          <h5 class="title-section">Gorditas</h5>
+          <div class="centrar-cards">
+            <div class="card-quesadillas-gorditas card-quesadillas-slide-right">
+              <div class="box-quesadillas-gorditas">
+                <div class="card-texto">
+                  <label class="card-titulo">Gordita de queso</label>
+                  <p>
+                    Quesadilla elaborada con queso y tortillas de maiz torteadas
+                    al instante..
+                  </p>
+                </div>
+                <div class="card-img">
+                  <img
+                    class="formato-img"
+                    src="./assets/gorditas.jpg"
+                    alt="gorditas-img"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="card-quesadillas-gorditas card-quesadillas-slide-right">
+              <div class="box-quesadillas-gorditas">
+                <div class="card-texto">
+                  <label class="card-titulo">Gordita de queso</label>
+                  <p>
+                    Quesadilla elaborada con queso y tortillas de maiz torteadas
+                    al instante..
+                  </p>
+                </div>
+                <div class="card-img">
+                  <img
+                    class="formato-img"
+                    src="./assets/gorditas.jpg"
+                    alt="gorditas-img"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="card-quesadillas-gorditas card-quesadillas-slide-right">
+              <div class="box-quesadillas-gorditas">
+                <div class="card-texto">
+                  <label class="card-titulo">Gordita de queso</label>
+                  <p>
+                    Quesadilla elaborada con queso y tortillas de maiz torteadas
+                    al instante..
+                  </p>
+                </div>
+                <div class="card-img">
+                  <img
+                    class="formato-img"
+                    src="./assets/gorditas.jpg"
+                    alt="gorditas-img"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!-- Inicio Especiales -->
+
+    <section id="especiales" class="especiales-section">
+      <div class="especiales-container">
+        <div class="especiales-left">
+          <img src="./assets/tacto-especiales.png" alt="" />
+        </div>
+        <div class="especiales-right">
+          <div>
+            <h2>¿Hambre de más o para compartir?</h2>
+            <p>
+              Encuentra ordenes de carnitas para saciar ese hambre boraz o para
+              compartir con quien tu quieras.
+            </p>
+          </div>
+          <div class="especiales-items-container">
+            <div class="especiales-items-row">
+              <img src="./assets/icons/bascula.svg" alt="" />
+              <p>1/4 Kg.</p>
+              <p>|</p>
+              <p>1/2 Kg.</p>
+              <p>|</p>
+              <p>1 Kg.</p>
+            </div>
+          </div>
+          <div class="especiales-items-container">
+            <div class="especiales-items-row">
+              <img src="./assets/icons/people.svg" alt="" />
+              <p>1 per</p>
+              <p>|</p>
+              <p>2 per</p>
+              <p>|</p>
+              <p>4 per</p>
+            </div>
+          </div>
+          <div style="display: flex; justify-content: space-around">
+            <div style="text-align: center">
+              <img src="./assets/icons/cebolla.svg" alt="" />
+              <p>Verduras</p>
+            </div>
+            <div style="text-align: center">
+              <img src="./assets/icons/tortilla.svg" alt="" />
+              <p>Tortillas torteadas</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Fin Especiales -->
+
+    <!-- Promociones -->
+    <section id="promociones" class="promociones-contain">
+      <div class="promociones">
+        <div class="promo-side">
+          <div>
+            <img
+              class="promo-img-1"
+              src="./assets/promociones/image_1.png"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              class="promo-img-2"
+              src="./assets/promociones/image_2.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="promociones-main">
+          <div class="promo-main-contain">
+            <div>
+              <h2>Promociones</h2>
+              <p>Descrubre nuestras promociones para ti</p>
+            </div>
+
+            <div class="item-promo">
+              <div class="promo-flex">
+                <img src="./assets/promociones/icon_taco.png" alt="" />
+                <p>3 tacos</p>
+              </div>
+              <p>+</p>
+              <div class="promo-flex">
+                <img src="./assets/promociones/icon_bebida.png" alt="" />
+                <p>3 agua o regresco</p>
+              </div>
+              <hr />
+            </div>
+            <hr class="promo-hr" />
+            <div class="item-promo">
+              <div class="promo-flex">
+                <img src="./assets/promociones/icon_taco.png" alt="" />
+                <p>3 quesadillas</p>
+              </div>
+              <p>+</p>
+              <div class="promo-flex">
+                <img src="./assets/promociones/icon_bebida.png" alt="" />
+                <p>3 agua o regresco</p>
+              </div>
+              <hr />
+            </div>
+            <hr class="promo-hr" />
+            <div class="item-promo">
+              <div class="promo-flex">
+                <img src="./assets/promociones/icon_taco.png" alt="" />
+                <p>3 gorditas</p>
+              </div>
+              <p>+</p>
+              <div class="promo-flex">
+                <img src="./assets/promociones/icon_bebida.png" alt="" />
+                <p>3 agua o regresco</p>
+              </div>
+              <hr />
+            </div>
+          </div>
+        </div>
+        <div class="promo-side promo-side-right">
+          <div>
+            <img
+              class="promo-img-3"
+              src="./assets/promociones/image_3.png"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              class="promo-img-4"
+              src="./assets/promociones/image_4.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contacto" class="color-fondo">
+      <div class="container-parent">
+        <div class="primer-container">
+          <img src="./assets/contactos/image 17.png" alt="" />
+        </div>
+        <div class="segundo-container">
+          <div class="div-central-segundo-container">
+            <img src="./assets/Logo-carnitas.png" alt="" width="130" />
+            <hr class="contacto-hr" color="#000" />
+            <h1 class="title-contacto">Contacto</h1>
+            <div class="info-contacto">
+              <div class="info-contacto-item">
+                <div class="first-div-phonenumber">
+                  <img src="./assets/contactos/image 22.png" alt="" />
+                </div>
+                <div class="second-div-phonenumber">
+                  <p class="tel-contacto">Teléfono</p>
+                  <p>322-225-6472</p>
+                </div>
+              </div>
+              <div class="info-contacto-item">
+                <div class="first-div-phonenumber">
+                  <img src="./assets/contactos/image 23.png" alt="" />
+                </div>
+                <div class="second-div-phonenumber">
+                  <p class="tel-contacto">Dirección</p>
+                  <p>
+                    Emiliano Zpata #273, Centro Pitallal, 48290 Puerto Vallarta,
+                    Jal.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="contacto-redes">
+              <div class="contacto-redes-title">
+                <p>Redes sociales</p>
+              </div>
+              <div class="footer-div-contacto">
+                <a
+                  href="https://wa.me/523223528437"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src="./assets/contactos/image 20.png" alt="" />
+                </a>
+                <a
+                  href="https://www.facebook.com/Carnitas-el-Pitillal-168378946535785"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src="./assets/contactos/image 21.png" alt="" />
+                </a>
+                <!-- <a
+                  href="https://www.facebook.com/Carnitas-el-Pitillal-168378946535785"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src="./assets/contactos/image 24.png" alt="" />
+                </a>
+                <a
+                  href="https://www.facebook.com/Carnitas-el-Pitillal-168378946535785"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src="./assets/icons/instagram_icon.svg" alt="facebook" />
+                </a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tercer-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3733.4069616169586!2d-105.2184023!3d20.6530159!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x84214f7e0d989591%3A0x950b0ee182f8373d!2sCarnitas%20El%20Pitillal!5e0!3m2!1ses-419!2smx!4v1655602957274!5m2!1ses-419!2smx"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="logo-footer pt">
+        <img src="./assets/Logo-carnitas.png" alt="icono" />
+      </div>
+      <hr color="#fff" />
+      <div class="pt">
+        <div class="referencia">
+          <h2>Contacto</h2>
+          <p>Telefono: 322-225-6472</p>
+          <p>
+            Dirección: Emiliano Zapata #273, Centro Pitillal 48290 Puerto
+            Vallarta Jal.
+          </p>
+          <p>
+            Whatsapp:
+            <a
+              href="https://www.facebook.com/Carnitas-el-Pitillal-168378946535785"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              322-352-8437</a
+            >
+          </p>
+          <p>
+            Facebook:
+            <a
+              href="https://wa.me/523223528437"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Carnitas el Pitillal</a
+            >
+          </p>
+        </div>
+      </div>
+      <hr color="#fff" />
+      <div class="pt">
+        <div class="referencia">
+          <h2>Links</h2>
+          <a href="#tacos">
+            <p>Tacos</p>
+          </a>
+          <a href="#quesadillas-y-gorditas">
+            <p>Quesadillas y gorditas</p>
+          </a>
+          <a href="#especiales">
+            <p>Especiales</p>
+          </a>
+          <a href="#promociones">
+            <p>Promociones</p>
+          </a>
+        </div>
+      </div>
+      <hr color="#fff" />
+      <div class="pt">
+        <div class="powerby">
+          <h2>Powered by</h2>
+          <a
+            href="https://ingenierosprogramadores.github.io/RacoonDevs/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="./assets/racoon_devs_alter.png" alt="" />
+          </a>
+          <p>Copyright 2022 Desarrollado por Racoon Devs</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./scripts/main.js"></script>
+    <script type="text/javascript" src="./scripts/navbar.js"></script>
   </body>
 </html>
