@@ -3,11 +3,11 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("../assets/header-carnitas.jpg");
+  background-image: url("../assets/img/bg_main.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 0;
-  box-shadow: 1px 2px 2px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 2px 2px 10px rgba(0, 0, 0, 0.6);
 }
 .floating-icons {
   position: fixed;
@@ -34,6 +34,7 @@ main {
   backdrop-filter: blur(10px);
   margin-bottom: 20px;
   padding: 5%;
+  text-shadow: 4px 1px 4px black;
 }
 .main-container h1 {
   padding: 2% 5%;
