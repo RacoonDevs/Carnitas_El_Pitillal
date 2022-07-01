@@ -16,6 +16,7 @@
   position: fixed;
   width: 100%;
   z-index: 10;
+  text-align: center;
   transition: 0.6s;
 }
 
@@ -33,7 +34,8 @@
 .navbar a {
   font-family: max-bold;
   color: white;
-  font-size: 22px;
+  font-size: 2rem;
+  text-align: center;
 }
 .navbar-links ul {
   margin: 0;
