@@ -21,7 +21,8 @@
   align-self: center;
 }
 .primer-container img {
-  height: 70vh;
+  /* height: 70vh; */
+  width: auto;
 }
 .segundo-container {
   display: flex;
