@@ -1,12 +1,12 @@
 .promociones-contain {
   min-height: 100vh;
   background-color: #ec3a2c;
-  position: relative;
+  /* position: relative; */
 }
 .promociones {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  gap: 50px;
   position: relative;
   width: auto;
   height: 100vh;
@@ -21,17 +21,17 @@
 /* .promo-side img { */
 /* width: 100%; */
 /* } */
-.promo-side-right {
-  /* justify-content: right; */
-  align-items: flex-end;
-}
+/* .promo-side-right { */
+/* justify-content: right; */
+/* align-items: flex-end;
+} */
 .promo-main-contain {
   background-color: white;
   height: 100%;
   /* padding: 5%; */
   text-align: center;
-  box-shadow: -5px 5px 5px 5px rgba(0, 0, 0, 0.5),
-    5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: -10px 0px 10px rgba(0, 0, 0, 0.5),
+    10px 0px 10px rgba(0, 0, 0, 0.5);
 }
 .promo-main-contain h2 {
   color: #ec3a2c;
@@ -61,19 +61,19 @@
 }
 .promo-img-1 {
   width: 100%;
-  box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.7);
+  box-shadow: 10px 10px 20px;
 }
 .promo-img-2 {
   width: 100%;
-  box-shadow: 6px -6px 6px 6px rgba(0, 0, 0, 0.7);
+  box-shadow: 10px -10px 10px rgba(0, 0, 0, 0.7);
 }
 .promo-img-3 {
   width: 100%;
-  box-shadow: -6px 6px 6px 6px rgba(0, 0, 0, 0.7);
+  box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.7);
 }
 .promo-img-4 {
   width: 100%;
-  box-shadow: -6px -6px 6px 6px rgba(0, 0, 0, 0.7);
+  box-shadow: -10px -10px 10px rgba(0, 0, 0, 0.7);
 }
 
 @media (max-width: 1023px) {
