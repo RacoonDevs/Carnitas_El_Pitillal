@@ -27,7 +27,8 @@
   color: #fff;
   height: 100%;
   width: 100%;
-  padding: 2%;
+  padding: 3%;
+  margin-top: 10%;
 }
 .title-section {
   font-family: Max-bold;
@@ -36,7 +37,7 @@
 .centrar-cards {
   display: grid;
   grid-template-rows: repeat(2, 1fr);
-  gap: 5%;
+  gap: 10%;
   height: 50%;
   width: 100%;
 }
