@@ -4,27 +4,36 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="descripción"
+      content="Comida mexicana. Comida tradicional regional mexicana."
+    />
     <meta property="og:title" content="Carnitas El Pitillal" />
     <meta
       property="og:description"
       content="Las mejores de la region desde 1985, le ofrecemos gran variedad de platillos tradicionales mexicanos con sabor unico respaldado por más de 37 años."
     />
-    <meta property="og:image" content="./assets/carnitas_shorcut.jpg" />
+    <meta property="og:image" content="./assets/carnitas_shorcut_2.jpg" />
     <meta
       property="og:url"
       content="http://carnitaselpitillal.pvjalisco.com/"
     />
     <title>Carnitas el Pitillal</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="index-dist.css" />
     <link rel="stylesheet" href="./styles/navbar.css" />
-    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/main-dist.css" />
     <link rel="stylesheet" href="./styles/quesadillasgorditas.css" />
     <link rel="stylesheet" href="./styles/footer.css" />
     <link rel="stylesheet" href="./styles/promociones.css" />
     <link rel="stylesheet" href="./styles/contacto.css" />
     <link rel="stylesheet" href="./styles/especiales.css" />
-    <script src="./scripts/jquery-3.6.0.min.js"></script>
+    <!-- <script src="./scripts/jquery-3.6.0.min.js"></script> -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <nav class="navbar opacity">
@@ -33,7 +42,7 @@
           <img src="./assets/Logo-carnitas.png" alt="logo-carnitas-pitillal" />
         </a>
       </div>
-      <ul class="nav-links">
+      <div class="nav-links">
         <div class="toggle-button">
           <label for="checkbox_toggle" class="hamburger">&#9776;</label>
         </div>
@@ -47,9 +56,9 @@
             <li><a href="#especiales">Especiales</a></li>
             <li><a href="#promociones">Promociones</a></li>
             <li><a href="#contacto">Contacto</a></li>
-          </div>
-        </ul>
-      </ul>
+          </ul>
+        </div>
+      </div>
     </nav>
 
     <div class="floating-icons">
@@ -156,6 +165,14 @@
               <h6 hidden>
                 Taco de carne de cerdo acompañado de tortillas torteadas al
                 momento, salsas y verduras para acompañar.
+              </h6>
+            </div>
+            <div class="box-tacos">
+              <img src="./assets/taco-carnitas.jpg" alt="" />
+              <p>Tacos de buche</p>
+              <h6 hidden>
+                Deliciso taco de carne de cerdo servida en tortilla de maíz
+                elaborada al momento con proteina en presentación de pura carne.
               </h6>
             </div>
           </div>
@@ -359,18 +376,10 @@
       <div class="promociones">
         <div class="promo-side">
           <div>
-            <img
-              class="promo-img-1"
-              src="./assets/img/promo_1.jpg"
-              alt=""
-            />
+            <img class="promo-img-1" src="./assets/img/promo_1.jpg" alt="" />
           </div>
           <div>
-            <img
-              class="promo-img-2"
-              src="./assets/img/promo_2.jpg"
-              alt=""
-            />
+            <img class="promo-img-2" src="./assets/img/promo_2.jpg" alt="" />
           </div>
         </div>
         <div class="promociones-main">
@@ -422,18 +431,10 @@
         </div>
         <div class="promo-side promo-side-right">
           <div>
-            <img
-              class="promo-img-3"
-              src="./assets/img/promo_3.jpg"
-              alt=""
-            />
+            <img class="promo-img-3" src="./assets/img/promo_3.jpg" alt="" />
           </div>
           <div>
-            <img
-              class="promo-img-4"
-              src="./assets/img/promo_4.jpg"
-              alt=""
-            />
+            <img class="promo-img-4" src="./assets/img/promo_4.jpg" alt="" />
           </div>
         </div>
       </div>
@@ -465,7 +466,8 @@
                 <div class="second-div-phonenumber">
                   <p class="tel-contacto">Dirección</p>
                   <p>
-                    Emiliano Zapata #273, Centro Pitillal 48290 Puerto Vallarta Jal.
+                    Emiliano Zapata #273, Centro Pitillal 48290 Puerto Vallarta
+                    Jal.
                   </p>
                 </div>
               </div>
@@ -489,20 +491,6 @@
                 >
                   <img src="./assets/contactos/image 21.png" alt="" />
                 </a>
-                <!-- <a
-                  href="https://www.facebook.com/Carnitas-el-Pitillal-168378946535785"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src="./assets/contactos/image 24.png" alt="" />
-                </a>
-                <a
-                  href="https://www.facebook.com/Carnitas-el-Pitillal-168378946535785"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src="./assets/icons/instagram_icon.svg" alt="facebook" />
-                </a> -->
               </div>
             </div>
           </div>
@@ -514,6 +502,7 @@
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
+            title="mapa"
           ></iframe>
         </div>
       </div>
@@ -532,24 +521,23 @@
             Vallarta Jal.
           </p>
           <p>
-            Whatsapp:
+            Facebook:
             <a
               href="https://www.facebook.com/Carnitas-el-Pitillal-168378946535785"
               target="_blank"
               rel="noopener noreferrer"
             >
-              322-352-8437</a
+              Carnitas el Pitillal</a
             >
           </p>
           <p>
-            Facebook:
+            Whatsapp:
             <a
               href="https://wa.me/523223528437"
               target="_blank"
               rel="noopener noreferrer"
-            >
-              Carnitas el Pitillal</a
-            >
+              >322-352-8437
+            </a>
           </p>
         </div>
       </div>
@@ -576,7 +564,7 @@
         <div class="powerby">
           <h2>Powered by</h2>
           <a
-            href="https://ingenierosprogramadores.github.io/RacoonDevs/"
+            href="https://racoondevs.com/"
             target="_blank"
             rel="noopener noreferrer"
           >

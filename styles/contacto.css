@@ -28,12 +28,12 @@
   display: flex;
   width: 100%;
   text-align: center;
-  margin-top: 1%;
+  /* margin-top: 1%; */
   justify-items: center;
   justify-content: center;
-  margin-bottom: 1%;
+  /* margin-bottom: 1%; */
   z-index: 2;
-  padding: 1% 15%;
+  padding: 2% 15%;
 }
 .div-central-segundo-container {
   width: 50%;
