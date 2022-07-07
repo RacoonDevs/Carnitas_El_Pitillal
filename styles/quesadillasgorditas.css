@@ -37,7 +37,7 @@
 .centrar-cards {
   display: grid;
   grid-template-rows: repeat(2, 1fr);
-  gap: 10%;
+  gap: 5%;
   height: 50%;
   width: 100%;
 }
