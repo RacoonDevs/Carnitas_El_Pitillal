@@ -45,6 +45,6 @@
   .especiales-left img {
     text-align: center;
     max-height: 50vh;
-    width: auto;
+    /* width: auto; */
   }
 }

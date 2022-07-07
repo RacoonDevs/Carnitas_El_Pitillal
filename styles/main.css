@@ -135,14 +135,14 @@ aside:last-of-type {
 }
 /* Menu de tacos */
 .menu-tacos {
-  margin-top: 15%;
+  margin-top: 20%;
   width: 100%;
   overflow-y: auto;
 }
 
 .grid-menu-tacos {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   font-size: 20px;
   padding: 0 5%;
@@ -162,9 +162,9 @@ aside:last-of-type {
   .grid-menu-tacos {
     display: flex;
     gap: 20px;
-    font-size: 20px;
+    /* font-size: 1px; */
     height: auto;
-    width: 400%;
+    width: 420%;
   }
 }
 .grid-menu-tacos::-webkit-scrollbar {
@@ -173,7 +173,7 @@ aside:last-of-type {
   height: 50px; /* Tamaño del scroll en horizontal */
 }
 .box-tacos {
-  border-radius: 50px;
+  border-radius: 20px;
   background-color: #ec3a2c;
   text-align: center;
   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
@@ -183,10 +183,10 @@ aside:last-of-type {
 .box-tacos img {
   width: 100%;
   height: 80%;
-  border-radius: 50px;
+  border-radius: 20px;
 }
 .box-tacos p {
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: white;
   width: 100%;
   height: auto;
@@ -200,7 +200,7 @@ aside:last-of-type {
   text-align: center;
   padding-left: 5%;
   padding-right: 5%;
-  margin-top: 10%;
+  /* margin-top: 10%; */
 }
 .main-description-tacos .title-tacos {
   margin-bottom: 2rem;
@@ -216,16 +216,14 @@ aside:last-of-type {
   width: 100%;
 }
 .taco-box {
-  border-radius: 50px;
+  border-radius: 20px;
   text-align: center;
   height: auto;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
-  bottom: 0;
-  backdrop-filter: blur(10px);
 }
 .taco-box img {
   width: 100%;
-  border-radius: 50px;
+  border-radius: 20px;
   background-color: #ec3a2c;
   text-align: center;
   height: auto;
@@ -249,13 +247,16 @@ aside:last-of-type {
 }
 
 @media (max-width: 1023px) {
+  .menu-tacos {
+    margin-top: 0;
+  }
   .box-tacos {
     width: 100%;
     border-radius: 20px;
     margin-bottom: 2%;
   }
   .box-tacos p {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   .box-tacos img {
     width: 100%;
