@@ -1,7 +1,7 @@
 $(document).ready(function () {
   $(".grid-menu-tacos .box-tacos").hover(function () {
-    const title = $(this).find("p").text();
-    const description = $(this).find("h6").text();
+    const title = $(this).find("h6").text();
+    const description = $(this).find("p").text();
     const img = $(this).find("img");
     $("#taco-title").text(title);
     $("#taco-description").text(description);
