@@ -11,7 +11,7 @@ main {
 }
 .floating-icons {
   position: fixed;
-  right: 0;
+  left: 0;
   bottom: 0;
   margin: 2%;
   display: flex;
