@@ -3,7 +3,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("../assets/img/bg_main.jpg");
+  background-image: url("./../assets/finales/ASSETS4.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 0;
@@ -32,7 +32,6 @@ main {
   position: absolute;
   bottom: 0;
   backdrop-filter: blur(10px) contrast(100%);
-  --webkit-backdrop-filter: blur(10px) contrast(100%);
   margin-bottom: 20px;
   padding: 5%;
   text-shadow: 4px 1px 4px black;
@@ -91,6 +90,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    --webkit-backdrop-filter: blur(10px) contrast(100%);
   }
   .main-container h1 {
     font-size: 50px;
